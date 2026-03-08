@@ -1,3 +1,12 @@
+# Prompt: Initial Brief — Abhivyakti 2026 Email
+
+> This was the original prompt used to kick off the Abhivyakti 2026 HTML email project. It demonstrates how to write a comprehensive brief for an AI assistant when building an HTML email from scratch.
+
+---
+
+## Prompt
+
+```
 You are an expert email developer and designer.
 
 Your task is to generate a production-ready responsive HTML email for a college cultural festival announcement.
@@ -244,3 +253,4 @@ Use only email-safe CSS properties.
 • Use readable font sizes
 • Include alt text on images
 • Maintain sufficient color contrast
+```

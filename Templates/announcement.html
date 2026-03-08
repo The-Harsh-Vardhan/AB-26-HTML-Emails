@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:v="urn:schemas-microsoft-com:vml"
+      xmlns:o="urn:schemas-microsoft-com:office:office">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="x-apple-disable-message-reformatting">
+  <meta name="color-scheme" content="light dark">
+  <meta name="supported-color-schemes" content="light dark">
+  <title>Simple Announcement</title>
+
+  <!--[if mso]>
+  <noscript>
+    <xml>
+      <o:OfficeDocumentSettings>
+        <o:AllowPNG/>
+        <o:PixelsPerInch>96</o:PixelsPerInch>
+      </o:OfficeDocumentSettings>
+    </xml>
+  </noscript>
+  <![endif]-->
+
+  <style type="text/css">
+    /* === RESET === */
+    body, table, td, a { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+    table, td { mso-table-lspace: 0pt; mso-table-rspace: 0pt; }
+    img { -ms-interpolation-mode: bicubic; border: 0; outline: none; text-decoration: none; }
+
+    /* === RESPONSIVE === */
+    @media only screen and (max-width: 620px) {
+      .container { width: 100% !important; max-width: 100% !important; }
+      .mobile-pad { padding-left: 20px !important; padding-right: 20px !important; }
+      .mobile-full-width { width: 100% !important; }
+      .mobile-center { text-align: center !important; }
+      .mobile-btn { width: 100% !important; }
+      .mobile-btn td { padding: 0 !important; }
+      .mobile-btn a { display: block !important; width: 100% !important; padding: 16px 0 !important; text-align: center !important; box-sizing: border-box !important; }
+      .hero-title { font-size: 26px !important; }
+      .hero-subtitle { font-size: 15px !important; }
+    }
+
+    /* === DARK MODE === */
+    @media (prefers-color-scheme: dark) {
+      .body-bg { background-color: #1a1a1a !important; }
+      .container-bg { background-color: #2d2d2d !important; }
+      .text-dark { color: #E5E5E5 !important; }
+      .text-muted-dark { color: #A3A3A3 !important; }
+      .header-bg { background-color: #1E40AF !important; }
+      .footer-bg { background-color: #171717 !important; }
+      .footer-text { color: #A3A3A3 !important; }
+    }
+  </style>
+</head>
+
+<!--
+  ╔══════════════════════════════════════════════════════════╗
+  ║  ANNOUNCEMENT EMAIL TEMPLATE                            ║
+  ║  Best for: product launches, updates, single messages   ║
+  ║  Complexity: ⭐ Beginner                                ║
+  ║                                                         ║
+  ║  HOW TO CUSTOMIZE:                                      ║
+  ║  1. Replace colors in inline styles + <style> block     ║
+  ║  2. Replace text content                                ║
+  ║  3. Replace image URLs with your hosted images          ║
+  ║  4. Update all href links                               ║
+  ║  5. Update preheader text                               ║
+  ╚══════════════════════════════════════════════════════════╝
+-->
+
+<body style="margin:0; padding:0; background-color:#F5F5F5;">
+
+  <!-- ====== PREHEADER (inbox preview text) ====== -->
+  <div style="display:none; max-height:0px; overflow:hidden; opacity:0;
+              mso-hide:all; font-size:1px; line-height:1px;">
+    Big news — we just launched something you'll love. Read on for details.
+  </div>
+  <div style="display:none; max-height:0px; overflow:hidden; opacity:0;
+              mso-hide:all; font-size:1px; line-height:1px;">
+    &nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;
+  </div>
+
+  <!-- ====== OUTER WRAPPER ====== -->
+  <table role="presentation" class="body-bg" width="100%" cellpadding="0" cellspacing="0"
+         style="background-color:#F5F5F5;">
+    <tr>
+      <td align="center" style="padding:20px 10px;">
+
+        <!-- ====== INNER CONTAINER (600px) ====== -->
+        <table role="presentation" class="container container-bg" width="600" cellpadding="0" cellspacing="0"
+               style="max-width:600px; width:100%; background-color:#FFFFFF; border-radius:8px; overflow:hidden;">
+
+          <!-- ====== HEADER ====== -->
+          <tr>
+            <td class="header-bg" align="center"
+                style="padding:24px 40px; background-color:#2563EB;">
+              <h1 style="margin:0; font-family:Georgia,'Times New Roman',serif;
+                         font-size:22px; font-weight:bold; color:#FFFFFF; letter-spacing:0.5px;">
+                Your Company
+              </h1>
+            </td>
+          </tr>
+
+          <!-- ====== HERO IMAGE ====== -->
+          <!-- Replace the src URL with your hosted image -->
+          <tr>
+            <td style="padding:0; line-height:0; font-size:0;">
+              <img src="https://placehold.co/600x250/2563EB/FFFFFF?text=Your+Hero+Image"
+                   width="600" alt="Announcement hero image"
+                   class="mobile-full-width"
+                   style="display:block; width:600px; max-width:100%; height:auto; border:0;">
+            </td>
+          </tr>
+
+          <!-- ====== MAIN CONTENT ====== -->
+          <tr>
+            <td class="mobile-pad"
+                style="padding:36px 48px; font-family:Arial,Helvetica,sans-serif;">
+
+              <!-- Headline -->
+              <h2 class="text-dark hero-title"
+                  style="margin:0 0 16px; font-family:Georgia,'Times New Roman',serif;
+                         font-size:28px; font-weight:bold; line-height:1.3; color:#1F2937;">
+                Introducing Something Exciting
+              </h2>
+
+              <!-- Body text -->
+              <p class="text-dark hero-subtitle"
+                 style="margin:0 0 16px; font-size:16px; line-height:1.6; color:#374151;">
+                We're thrilled to share our latest update with you. This is a brief
+                description of what's new and why it matters to you.
+              </p>
+
+              <p class="text-dark"
+                 style="margin:0 0 24px; font-size:16px; line-height:1.6; color:#374151;">
+                Add a second paragraph with more details here. Keep it concise —
+                email readers scan rather than read. Two to three short paragraphs
+                is the sweet spot.
+              </p>
+
+              <!-- ====== CTA BUTTON ====== -->
+              <table role="presentation" class="mobile-btn" cellpadding="0" cellspacing="0"
+                     style="margin:0 auto;">
+                <tr>
+                  <td align="center"
+                      style="background-color:#2563EB; border-radius:8px;">
+                    <a href="https://example.com" target="_blank"
+                       style="display:inline-block; padding:16px 40px;
+                              font-family:Arial,Helvetica,sans-serif; font-size:16px;
+                              font-weight:bold; color:#FFFFFF; text-decoration:none;">
+                      Learn More
+                    </a>
+                  </td>
+                </tr>
+              </table>
+
+            </td>
+          </tr>
+
+          <!-- ====== DIVIDER ====== -->
+          <tr>
+            <td style="padding:0 48px;">
+              <hr style="border:0; border-top:1px solid #E5E7EB; margin:0;">
+            </td>
+          </tr>
+
+          <!-- ====== FOOTER ====== -->
+          <tr>
+            <td class="footer-bg mobile-pad" align="center"
+                style="padding:24px 48px; background-color:#F9FAFB;
+                       font-family:Arial,Helvetica,sans-serif;">
+              <p class="footer-text"
+                 style="margin:0 0 8px; font-size:13px; line-height:1.5; color:#6B7280;">
+                &copy; 2026 Your Company. All rights reserved.
+              </p>
+              <p class="footer-text"
+                 style="margin:0 0 8px; font-size:13px; line-height:1.5; color:#6B7280;">
+                123 Main Street, City, State 12345
+              </p>
+              <p style="margin:0; font-size:13px; line-height:1.5;">
+                <a href="https://example.com/unsubscribe" target="_blank"
+                   style="color:#2563EB; text-decoration:underline;">Unsubscribe</a>
+                &nbsp;|&nbsp;
+                <a href="https://example.com/preferences" target="_blank"
+                   style="color:#2563EB; text-decoration:underline;">Preferences</a>
+              </p>
+            </td>
+          </tr>
+
+        </table>
+        <!-- /INNER CONTAINER -->
+
+      </td>
+    </tr>
+  </table>
+  <!-- /OUTER WRAPPER -->
+
+</body>
+</html>
