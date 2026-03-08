@@ -1,28 +1,29 @@
-# Abhivyakti 2026 — HTML Email Documentation
+# AB'26 HTML Emails
 
-> IIIT Nagpur's Annual Cultural Fest | 19 – 21 March 2026
+> Abhivyakti 2026 — IIIT Nagpur's Annual Cultural Fest | 19 – 21 March 2026
 
-This repository contains all resources related to the promotional HTML emails for **Abhivyakti 2026**, including iterative email versions, design references, content drafts, wireframes, and a pre-send checklist.
+This repository contains all resources related to the promotional HTML emails for **Abhivyakti 2026**, including the final email, all iterative versions, design references, content drafts, wireframes, tips, and a pre-send checklist.
 
 ---
 
 ## 📂 Repository Structure
 
 ```
-Abhivyakti 2026/
-├── README.md                    ← You are here
-├── Desktop Wireframe.md         ← Desktop layout wireframe
-├── Mobile Wireframe.md          ← Mobile layout wireframe
-├── prompt1.txt                  ← Initial prompt / brief
-├── HTML Email/
-│   ├── Checklist.md             ← Pre-send QA checklist
-│   ├── Content.txt              ← Finalized email copy (desktop + mobile)
-│   ├── Tips.md                  ← Tips for importing, sending & creating HTML mails
-│   ├── mail1.html → mail23.html ← Iterative HTML email versions
-│   └── Reference Designs/
-│       └── Event Posters/       ← Visual inspiration & poster assets
-├── Feedback Images/             ← Screenshots / feedback from reviews
-└── More Images/                 ← Additional image assets
+AB'26 HTML Emails/
+├── README.md                        ← You are here
+├── Final IIITN Students Mail.html   ← ✅ Final production-ready email
+├── Checklist.md                     ← Pre-send QA checklist
+├── Content.txt                      ← Finalized email copy (desktop + mobile)
+├── Tips.md                          ← Tips for importing, sending & creating HTML mails
+├── Desktop Wireframe.md             ← Desktop layout wireframe
+├── Mobile Wireframe.md              ← Mobile layout wireframe
+├── prompt1.txt                      ← Initial prompt / brief
+├── Email Iterations/
+│   └── mail1.html → mail23.html     ← All 23 iterative HTML email versions
+├── Reference Designs/
+│   └── Event Posters/               ← Visual inspiration & poster assets
+├── Feedback Images/                 ← Screenshots / feedback from reviews
+└── More Images/                     ← Additional design assets
 ```
 
 ---
@@ -434,8 +435,10 @@ The email went through **23 iterations** (mail1.html → mail23.html). Below is 
 
 ## 📚 Additional Resources
 
-- [Tips.md](HTML%20Email/Tips.md) — Practical tips for importing, sending, and creating HTML mails
-- [Checklist.md](HTML%20Email/Checklist.md) — Pre-send QA checklist
-- [Content.txt](HTML%20Email/Content.txt) — Finalized email copy
+- [Final IIITN Students Mail.html](Final%20IIITN%20Students%20Mail.html) — The production-ready final email
+- [Tips.md](Tips.md) — Practical tips for importing, sending, and creating HTML mails
+- [Checklist.md](Checklist.md) — Pre-send QA checklist
+- [Content.txt](Content.txt) — Finalized email copy
 - [Desktop Wireframe.md](Desktop%20Wireframe.md) — Desktop layout plan
 - [Mobile Wireframe.md](Mobile%20Wireframe.md) — Mobile layout plan
+- [Email Iterations/](Email%20Iterations/) — All 23 iterative versions
