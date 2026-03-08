@@ -1,0 +1,246 @@
+You are an expert email developer and designer.
+
+Your task is to generate a production-ready responsive HTML email for a college cultural festival announcement.
+
+The email must render well on BOTH desktop and mobile devices using a single HTML email.
+
+CRITICAL REQUIREMENTS
+
+• Use email-safe HTML practices
+• Use table-based layout
+• Inline CSS only
+• Max width 600px container
+• Avoid JavaScript
+• Avoid external CSS
+• Use bulletproof buttons
+• Ensure compatibility with Gmail, Outlook, Apple Mail, Yahoo Mail, iOS Mail, Android Mail
+
+RESPONSIVE BEHAVIOR
+
+This email must intelligently adapt to device width.
+
+Desktop Layout:
+• multi-column layout where appropriate
+• CTA buttons side-by-side
+• more spacing and breathing room
+
+Mobile Layout:
+• stacked single column
+• full-width buttons
+• tighter spacing
+• readable typography
+• hero CTA visible immediately
+
+Use media queries for screens under 600px.
+
+DESIGN STYLE
+
+Theme: Vintage circus / carnival aesthetic inspired by a cultural fest poster.
+
+Color palette:
+
+Background: #5A0F14
+Panel: #8B1E24
+Gold accent: #E7C27D
+Text: #F6E6C3
+
+Typography should feel celebratory and bold but remain email-safe.
+
+EMAIL STRUCTURE
+
+1. HERO SECTION
+
+Include a banner image placeholder.
+
+Title:
+ABHIVYAKTI 2026
+
+Subtitle:
+IIIT Nagpur Cultural Fest
+
+Dates:
+19–21 March 2026
+
+Highlight line:
+₹5,00,000+ Prize Pool • National Level Participation
+
+Social proof line:
+Hundreds of IIITN students have already started registering.
+
+Primary CTA:
+🎟 GET YOUR PASS
+
+Secondary CTA:
+EXPLORE EVENTS
+
+On desktop:
+buttons appear side-by-side.
+
+On mobile:
+buttons stack vertically and become full width.
+
+2. INTRO SECTION
+
+Hello IIIT Nagpur,
+
+We warmly welcome you to Abhivyakti 2026 — IIIT Nagpur’s Annual Cultural Fest.
+
+Get ready for three unforgettable days of competitions, performances, music, and campus-wide celebrations.
+
+PRO SHOWS, PRO NIGHTS, AND WATCHING ALL EVENTS ARE ABSOLUTELY FREE FOR IIITN STUDENTS.
+
+Your friends will be on stage.
+Your seniors will be competing.
+The only question is — will you?
+
+3. PASS SECTION
+
+Title:
+Participation Pass Options
+
+IIITN Pass — ₹300
+• Participate in all competitions across all 3 days
+• Access to all Pro Shows and Pro Nights
+
+IIITN+ Pass — ₹500
+• Participate in all competitions across all 3 days
+• Access to all Pro Shows and Pro Nights
+• Includes Exclusive Abhivyakti ’26 Limited Edition Merchandise
+
+Closing line:
+One pass. Unlimited events. Three unforgettable days.
+
+4. EVENTS SECTION
+
+Title:
+What's Inside
+
+Dance • Drama • Music
+Fine Arts • Media • E-Sports
+Model United Nations
+Stand-Up Comedy
+Concert Night • DJ Nights
+
+5. HOW TO REGISTER
+
+1. Login using your IIITN Gmail ID (example: bt23cse000@iiitn.ac.in)
+2. Go to the Events Page
+3. Register for events you want to participate in
+4. Visit the Passes Section
+5. Purchase your Participation Pass
+
+Important note:
+
+The IIITN Pass will only be visible if you log in using your IIIT Nagpur student email ID.
+
+6. FINAL CTA SECTION
+
+Include three buttons:
+
+🎟 GET YOUR PASS  
+REGISTER EVENTS  
+VISIT WEBSITE  
+
+Buttons should be visually prominent.
+
+On desktop:
+display buttons in a grid.
+
+On mobile:
+stack buttons vertically.
+
+7. FOOTER
+
+Event Details:
+19–21 March 2026
+IIIT Nagpur Campus
+
+Website:
+https://abhivyakti.iiitn.ac.in
+
+Contact:
+
+abhivyakti.hospitality@iiitn.ac.in  
+abhivyakti.marketing@iiitn.ac.in  
+
+Phone numbers:
+9423936406
+8779617475
+
+ADDITIONAL REQUIREMENTS
+
+• Include image placeholders for hero banner and poster
+• Ensure images scale to 100% width on mobile
+• Include proper alt text
+• Keep HTML lightweight to avoid Gmail clipping
+• Maintain visual hierarchy using spacing and gold dividers
+• Ensure buttons are thumb-friendly on mobile
+• Use a clean visual layout suitable for a festival announcement
+
+OUTPUT
+
+Return a single complete HTML email template ready for use in Mailchimp, SendGrid, or Gmail.
+
+EMAIL ENGINEERING RULES
+
+Follow professional email development standards.
+
+1. STRUCTURE
+
+• Use a single centered container table (max-width 600px)
+• Use nested tables for layout
+• Do NOT use div-based layouts
+• Do NOT use flexbox or grid
+• Avoid margin CSS (use padding instead)
+• Avoid position:absolute or complex CSS
+
+2. BUTTONS
+
+Create bulletproof HTML buttons using tables.
+
+Buttons must:
+• have background color
+• include padding
+• include border radius
+• include fallback text
+• work even if images are blocked
+
+3. IMAGES
+
+• All images must use width="100%" and max-width
+• Include alt text
+• Avoid very large images
+• Ensure hero image scales properly on mobile
+
+4. RESPONSIVE RULES
+
+Use media queries for screens under 600px.
+
+On mobile:
+• stack columns vertically
+• convert multi-column layouts into single column
+• make buttons full width
+• reduce padding for smaller screens
+
+5. EMAIL SAFETY
+
+Avoid:
+• JavaScript
+• web fonts
+• external CSS files
+• complex selectors
+
+Use only email-safe CSS properties.
+
+6. CLEAN CODE
+
+• Avoid unnecessary wrappers
+• Avoid deeply nested tables
+• Keep HTML size small to prevent Gmail clipping
+• Use consistent spacing and indentation
+
+7. ACCESSIBILITY
+
+• Use readable font sizes
+• Include alt text on images
+• Maintain sufficient color contrast
